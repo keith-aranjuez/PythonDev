@@ -1,0 +1,41 @@
+
+import os
+import string
+
+
+os.system("cls")
+a = 0
+b = 0
+while a != "X":
+    a = input("Enter start number. Put 'X' to exit : ")
+    if a.upper() == "X":
+        print("Program ended.")
+        break
+       
+    else:   
+        b = input("Enter end number. Put 'X' to exit : ")
+        if b.upper() == "X":
+            print("Program ended.")
+            break
+        else:
+            if int(a)!= 0 and int(b) != 0: 
+                for item in range(int(a),int(b)+1):
+                    print (item)
+        
+c = string.ascii_letters
+
+
+
+for items in c:
+    print(items)
+ 
+c = string.hexdigits 
+ 
+for items in c: print(items)
+
+
+        
+
+
+        
+ 
