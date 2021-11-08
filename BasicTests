@@ -2,7 +2,6 @@
 import os
 import string
 
-
 os.system("cls")
 a = 0
 b = 0
@@ -24,18 +23,9 @@ while a != "X":
         
 c = string.ascii_letters
 
-
-
 for items in c:
     print(items)
  
 c = string.hexdigits 
  
 for items in c: print(items)
-
-
-        
-
-
-        
- 
